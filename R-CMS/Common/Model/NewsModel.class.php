@@ -106,10 +106,10 @@ class NewsModel extends Model{
 		}
 	}
 
-	public function getRank($data = array(),$limit = 100) {
-		$list = $this -> _db -> where($data) -> order('count desc,news_id desc') -> limit($limit) -> select();
-		return $list;
-	}
+	// public function getRank($data = array(),$limit = 100) {
+	// 	$list = $this -> _db -> where($data) -> order('count desc,news_id desc') -> limit($limit) -> select();
+	// 	return $list;
+	// }
 }
 
 

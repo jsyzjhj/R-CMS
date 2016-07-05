@@ -10,6 +10,8 @@ class CatController extends CommonController{
 	
 	public function index() {
 		$id = intval($_GET['id']);
+ 		$barMenus = D('Menu') -> getBarMenus();
+  		$this -> assign('barMenus',$barMenus);
 		$this -> display();
 	}
 }

@@ -26,7 +26,7 @@ class IndexController extends CommonController {
 
  		$advNews = D('PositionContent') -> select($getAdvNews,2);
  		$news = D('News') -> select($getNews,20);
- 		$rankNews = D('News') -> getRank($getNews);
+ 		$rankNews = $this -> getRank($getNews);
 
  		// print_r($advNews);exit;
 

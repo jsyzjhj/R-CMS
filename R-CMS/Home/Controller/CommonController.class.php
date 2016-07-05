@@ -18,6 +18,10 @@ class CommonController extends Controller{
 		$this -> assign('message',$message);
 		$this -> display('Index/error');
 	}
+
+	public function getRank($data = array(),$limit = 100) {
+		return M('News') -> where($data) ->  order('count desc,news_id desc') -> limit($limit) -> select();
+	}
 }
 
  ?>
