@@ -22,7 +22,7 @@
 
     <!-- Custom Fonts -->
     <link href="/R-CMS/Public/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/R-CMS/Public/css/sing/common.css" />
+    <link rel="stylesheet" href="/R-CMS/Public/css/R/common.css" />
     <link rel="stylesheet" href="/R-CMS/Public/css/party/bootstrap-switch.css" />
     <link rel="stylesheet" type="text/css" href="/R-CMS/Public/css/party/uploadify.css">
 
@@ -94,7 +94,7 @@
 
                 <ol class="breadcrumb">
                     <li>
-                        <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=menu">菜单管理</a>
+                        <i class="fa fa-dashboard"></i>  <a href="/R-CMS/admin.php?c=menu">菜单管理</a>
                     </li>
                     <li class="active">
                         <i class="fa fa-edit"></i> 添加
@@ -107,7 +107,7 @@
         <div class="row">
             <div class="col-lg-6">
 
-                <form class="form-horizontal" id="singcms-form">
+                <form class="form-horizontal" id="rcms-form">
                     <div class="form-group">
                         <label for="inputname" class="col-sm-2 control-label">菜单名:</label>
                         <div class="col-sm-5">
@@ -169,7 +169,7 @@
 
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-                            <button type="button" class="btn btn-default" id="singcms-button-submit">提交</button>
+                            <button type="button" class="btn btn-default" id="rcms-button-submit">提交</button>
                         </div>
                     </div>
                 </form>

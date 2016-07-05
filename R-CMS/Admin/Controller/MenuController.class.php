@@ -16,13 +16,11 @@ class MenuController extends Controller{
 		}else {
 			$this->assign('type',-1);			
 		}
-
-
 		$page = $_REQUEST['p'] ? $_REQUEST['p'] : '1';
 		$pageSize = $_REQUEST['pageSize'] ? $_REQUEST['pageSize'] : '10';
 		$menus = D('Menu') -> getMenus($data,$page,$pageSize);
 		$menusCount = D('Menu') -> getMenusCount($data);
-
+		//分页
 		$res = new \Think\Page($menusCount,$pageSize);
 		$pageRes = $res -> show();
 		$this -> assign('pageRes',$pageRes);

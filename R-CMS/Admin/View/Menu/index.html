@@ -16,10 +16,10 @@
 
                 <ol class="breadcrumb">
                     <li>
-                        <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=menu">菜单管理</a>
+                        <i class="fa fa-dashboard"></i>  <a href="/R-CMS/admin.php?c=menu">菜单管理</a>
                     </li>
                     <li class="active">
-                        <i class="fa fa-table"></i>{$nav}
+                        <i class="fa fa-table">菜单列表</i>
                     </li>
                 </ol>
             </div>
@@ -50,8 +50,8 @@
             <div class="col-lg-6">
                 <h3></h3>
                 <div class="table-responsive">
-                    <form id="singcms-listorder">
-                    <table class="table table-bordered table-hover singcms-table">
+                    <form id="rcms-listorder">
+                    <table class="table table-bordered table-hover rcms-table">
                         <thead>
                         <tr>
                             <th width="14">排序</th>
@@ -72,7 +72,7 @@
                                 <td>{$menu.m}</td>
                                 <td>{$menu.type|getMenuType}</td>
                                 <td>{$menu.status|getMenuStatus}</td>
-                                <td><span class="glyphicon glyphicon-edit" aria-hidden="true" id="singcms-edit" attr-id="{$menu.menu_id}"></span>    <a href="javascript:void(0)" attr-id="{$menu.menu_id}" id="singcms-delete"  attr-a="menu" attr-message="删除"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
+                                <td><span class="glyphicon glyphicon-edit" aria-hidden="true" id="rcms-edit" attr-id="{$menu.menu_id}"></span>    <a href="javascript:void(0)" attr-id="{$menu.menu_id}" id="rcms-delete"  attr-a="menu" attr-message="删除"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
                             </tr>
                         </volist>
                         </tbody>

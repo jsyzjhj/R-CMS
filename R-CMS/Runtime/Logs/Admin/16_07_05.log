@@ -1,0 +1,1608 @@
+[ 2016-07-05T09:57:51+08:00 ] ::1 /R-CMS/admin.php?c=Positioncontent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002355s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 14 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.3674s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000607s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000759s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002315s ]
+
+[ 2016-07-05T09:58:02+08:00 ] ::1 /R-CMS/admin.php?c=Position
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\01ef49f03a9f0efe547584616c4e661e.php 第 60 行.
+NOTIC: [8] Undefined variable: pageRes D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\01ef49f03a9f0efe547584616c4e661e.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001489s ]
+
+[ 2016-07-05T09:58:11+08:00 ] ::1 /R-CMS/admin.php?c=Positioncontent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 14 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2016-07-05T09:58:14+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=edit&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `cms_position_content` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\e64f089390f4e937aaa532a82658424b.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001724s ]
+
+[ 2016-07-05T09:58:20+08:00 ] ::1 /R-CMS/admin.php?c=Position
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\01ef49f03a9f0efe547584616c4e661e.php 第 60 行.
+NOTIC: [8] Undefined variable: pageRes D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\01ef49f03a9f0efe547584616c4e661e.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001928s ]
+
+[ 2016-07-05T10:11:56+08:00 ] ::1 /R-CMS/admin.php?c=Positioncontent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 14 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0077s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000404s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000537s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002981s ]
+
+[ 2016-07-05T10:12:02+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `cms_position_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\e64f089390f4e937aaa532a82658424b.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002092s ]
+
+[ 2016-07-05T10:12:06+08:00 ] ::1 /R-CMS/admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002318s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\R-CMS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-07-05T10:12:09+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+
+[ 2016-07-05T10:12:12+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+
+[ 2016-07-05T10:12:22+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002979s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 14 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0097s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002178s ]
+
+[ 2016-07-05T10:12:32+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=setStatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0085s ]
+SQL: UPDATE `cms_position_content` SET `status`='0' WHERE ( id=1 ) [ RunTime:0.0009s ]
+
+[ 2016-07-05T10:12:33+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003500s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 14 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002125s ]
+
+[ 2016-07-05T10:33:22+08:00 ] ::1 /R-CMS/admin.php?position_id=2&c=positioncontent&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY listorder  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002153s ]
+
+[ 2016-07-05T10:33:28+08:00 ] ::1 /R-CMS/admin.php?position_id=1&c=positioncontent&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002289s ]
+
+[ 2016-07-05T10:33:31+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=edit&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `cms_position_content` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\e64f089390f4e937aaa532a82658424b.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2016-07-05T10:33:37+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0079s ]
+SQL: UPDATE `cms_position_content` SET `title`='php编程',`position_id`='2',`thumb`='/R-CMS/upload/2016/07/04/577a2c2ea57b3.jpg',`url`='http://sina.com.cn',`news_id`='0',`status`='0' WHERE ( id=5 ) [ RunTime:0.0007s ]
+
+[ 2016-07-05T10:33:39+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002630s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 14 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 17 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002136s ]
+
+[ 2016-07-05T10:33:52+08:00 ] ::1 /R-CMS/admin.php?position_id=2&c=positioncontent&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0091s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY listorder  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2016-07-05T10:33:56+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=setStatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0074s ]
+SQL: UPDATE `cms_position_content` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0009s ]
+
+[ 2016-07-05T10:33:57+08:00 ] ::1 /R-CMS/admin.php?position_id=2&c=positioncontent&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0015s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY listorder  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000942s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001108s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002259s ]
+
+[ 2016-07-05T10:34:08+08:00 ] ::1 /R-CMS/admin.php?position_id=1&c=positioncontent&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002967s ]
+
+[ 2016-07-05T10:34:12+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=edit&id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `cms_position_content` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\e64f089390f4e937aaa532a82658424b.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003277s ]
+
+[ 2016-07-05T10:34:19+08:00 ] ::1 /R-CMS/admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001789s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\R-CMS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-07-05T10:34:24+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+
+[ 2016-07-05T10:35:20+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0092s ]
+SQL: UPDATE `cms_position_content` SET `title`='那些年，乔布斯犯下的错',`position_id`='2',`thumb`='/R-CMS/upload/2016/07/05/577b1cab4dadd.jpg',`url`='',`news_id`='11',`status`='1' WHERE ( id=4 ) [ RunTime:0.0019s ]
+
+[ 2016-07-05T10:35:21+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 14 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 17 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001253s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002524s ]
+
+[ 2016-07-05T10:35:26+08:00 ] ::1 /R-CMS/admin.php?position_id=2&c=positioncontent&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0082s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY listorder  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002035s ]
+
+[ 2016-07-05T10:38:07+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=edit&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002631s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `cms_position_content` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001232s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\e64f089390f4e937aaa532a82658424b.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001570s ]
+
+[ 2016-07-05T14:32:57+08:00 ] ::1 /R-CMS/admin.php?c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002043s ]
+
+[ 2016-07-05T14:33:04+08:00 ] ::1 /R-CMS/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0771s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0280s ]
+
+[ 2016-07-05T14:33:05+08:00 ] ::1 /R-CMS/admin.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0314s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0367s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\ac114abd175e1cc6762dd3b4afbcb775.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2016-07-05T14:56:14+08:00 ] ::1 /R-CMS/admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 17 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 30 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder,news_id LIMIT 0,2   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 40 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0225s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 58 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002198s ]
+
+[ 2016-07-05T14:56:21+08:00 ] ::1 /R-CMS/admin.php?c=content&a=setStatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0064s ]
+SQL: UPDATE `cms_news` SET `status`='1' WHERE ( news_id=11 ) [ RunTime:0.0198s ]
+
+[ 2016-07-05T14:56:22+08:00 ] ::1 /R-CMS/admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 17 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 30 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder,news_id LIMIT 0,2   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 40 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 58 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002573s ]
+
+[ 2016-07-05T15:17:56+08:00 ] ::1 /R-CMS/admin.php?c=content&a=edit&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` = 11 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsContentModel.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `cms_news_content` WHERE `news_id` = 11 LIMIT 1   [ RunTime:0.0214s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001330s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\7cac1fa1e07c63a84bcd476b1ecd85e6.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2016-07-05T15:51:01+08:00 ] ::1 /R-CMS/admin.php?c=Position
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\01ef49f03a9f0efe547584616c4e661e.php 第 60 行.
+NOTIC: [8] Undefined variable: pageRes D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\01ef49f03a9f0efe547584616c4e661e.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002623s ]
+
+[ 2016-07-05T15:51:03+08:00 ] ::1 /R-CMS/admin.php?c=Positioncontent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 14 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 17 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001493s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-07-05T15:51:14+08:00 ] ::1 /R-CMS/admin.php?position_id=3&c=positioncontent&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002181s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0025s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY listorder  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-07-05T15:53:01+08:00 ] ::1 /R-CMS/admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 17 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 30 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder,news_id LIMIT 0,2   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 40 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 58 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002713s ]
+
+[ 2016-07-05T15:53:03+08:00 ] ::1 /R-CMS/admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\487ffbba1fe6ca698184299cbf886ccc.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.369250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.369367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-07-05T15:53:38+08:00 ] ::1 /R-CMS/admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\R-CMS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-07-05T15:54:25+08:00 ] ::1 /R-CMS/admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+NOTIC: [8] Undefined index: news_id D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 55 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0065s ]
+SQL: INSERT INTO `cms_news` (`title`,`small_title`,`thumb`,`title_font_color`,`catid`,`copyfrom`,`description`,`keywords`,`create_time`,`username`) VALUES ('豌豆荚确认并入阿里移动','豌豆荚确认并入阿里移动，具体金额成谜','/R-CMS/upload/2016/07/05/577b678261f9d.png','#5674ed','8','0','豌豆荚被阿里收购','豌豆荚 阿里','1467705264','admin') [ RunTime:0.3358s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsContentModel.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0065s ]
+SQL: INSERT INTO `cms_news_content` (`content`,`news_id`,`create_time`) VALUES ('&lt;p style=&quot;font-size:1pc;color:#272A30;font-family:\'Microsoft Yahei\';text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&lt;a class=&quot;s_tag&quot; href=&quot;http://www.ithome.com/&quot; target=&quot;_blank&quot;&gt;IT之家&lt;/a&gt;7月5日消息，今天早些时间有消息称，&lt;a href=&quot;http://www.ithome.com/html/it/238588.htm&quot; target=&quot;_blank&quot;&gt;阿里巴巴将收购豌豆荚&lt;/a&gt;。现在，豌豆荚方面宣布，其分发业务将并入阿里巴巴移动事业群，双方已正式签订并购协议。目前，双方并未透露具体并购金额，不过此前消息称是2亿美元（约合人民币13.3亿元）。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:1pc;color:#272A30;font-family:\'Microsoft Yahei\';text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://img.ithome.com/newsuploadfiles/2016/7/20160705_142152_135.png&quot; alt=&quot;豌豆荚确认并入阿里移动，具体金额成谜&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:1pc;color:#272A30;font-family:\'Microsoft Yahei\';text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	豌豆荚联合创始人王俊煜表示，豌豆荚的应用分发业务目前在盈利状态，与其他同类产品相比，豌豆荚以帮助用户发现高品质的应用和游戏为目标。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:1pc;color:#272A30;font-family:\'Microsoft Yahei\';text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	阿里巴巴移动事业群总裁俞永福表示，豌豆荚加入阿里移动，未来更大的价值在于双方在大数据与内容的双向互利。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:1pc;color:#272A30;font-family:\'Microsoft Yahei\';text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&lt;img class=&quot;lazy&quot; src=&quot;http://img.ithome.com/newsuploadfiles/2016/7/20160705_142635_325.png&quot; alt=&quot;豌豆荚确认并入阿里移动，具体金额成谜&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:1pc;color:#272A30;font-family:\'Microsoft Yahei\';text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	公开资料显示，2010年4月，豌豆荚发布1.0 Beta版，是李开复创立的创新工场孵化的第一批产品，也是国内最早的第三方安卓应用市场之一，根据其公布的数字显示，累积安装量超过5亿。
+&lt;/p&gt;','12','1467705265') [ RunTime:0.0008s ]
+
+[ 2016-07-05T15:54:26+08:00 ] ::1 /R-CMS/admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 17 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 30 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder,news_id LIMIT 0,2   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 40 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 58 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001935s ]
+
+[ 2016-07-05T15:54:35+08:00 ] ::1 /R-CMS/admin.php?c=content&a=push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002306s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('12')  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0065s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`create_time`,`status`) VALUES ('3','豌豆荚确认并入阿里移动','/R-CMS/upload/2016/07/05/577b678261f9d.png','12','1467705275','1') [ RunTime:0.0009s ]
+
+[ 2016-07-05T15:54:36+08:00 ] ::1 /R-CMS/admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 17 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 30 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder,news_id LIMIT 0,2   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 40 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 58 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 113 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\c20c847fb46d64d33e0be7dbd1a896e1.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2016-07-05T15:55:04+08:00 ] ::1 /R-CMS/admin.php?c=Positioncontent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 14 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 17 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2016-07-05T15:55:07+08:00 ] ::1 /R-CMS/admin.php?position_id=3&c=positioncontent&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY listorder  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2016-07-05T15:55:11+08:00 ] ::1 /R-CMS/admin.php?c=Position
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\01ef49f03a9f0efe547584616c4e661e.php 第 60 行.
+NOTIC: [8] Undefined variable: pageRes D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\01ef49f03a9f0efe547584616c4e661e.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-07-05T15:57:55+08:00 ] ::1 /R-CMS/admin.php?c=Positioncontent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 14 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 17 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001462s ]
+
+[ 2016-07-05T15:58:02+08:00 ] ::1 /R-CMS/admin.php?position_id=3&c=positioncontent&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0014s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY listorder  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2016-07-05T15:58:05+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=edit&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `cms_position_content` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\e64f089390f4e937aaa532a82658424b.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2016-07-05T15:58:24+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0086s ]
+SQL: UPDATE `cms_position_content` SET `title`='豌豆荚确认并入阿里移动',`position_id`='1',`thumb`='/R-CMS/upload/2016/07/05/577b678261f9d.png',`url`='http://sina.com.cn',`news_id`='12',`status`='1' WHERE ( id=7 ) [ RunTime:0.0007s ]
+
+[ 2016-07-05T15:58:26+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 14 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 17 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2016-07-05T15:58:34+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=edit&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cms_position_content` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\e64f089390f4e937aaa532a82658424b.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001991s ]
+
+[ 2016-07-05T15:58:39+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0073s ]
+SQL: UPDATE `cms_position_content` SET `title`='豌豆荚确认并入阿里移动',`position_id`='3',`thumb`='/R-CMS/upload/2016/07/05/577b678261f9d.png',`url`='http://sina.com.cn',`news_id`='12',`status`='1' WHERE ( id=7 ) [ RunTime:0.0014s ]
+
+[ 2016-07-05T15:58:40+08:00 ] ::1 /R-CMS/admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 14 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\PositioncontentController.class.php 第 17 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 ORDER BY listorder  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 112 行.
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2016-07-05T15:58:45+08:00 ] ::1 /R-CMS/admin.php?position_id=3&c=positioncontent&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY listorder  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\a00f5db7c54c272e2ace369c2a48d0fb.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007332s ]
+
+[ 2016-07-05T17:48:16+08:00 ] ::1 /R-CMS/admin.php?c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\MenuController.class.php 第 19 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\MenuController.class.php 第 20 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id desc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\0de9185548f5fdb8e375b57a8a8c8740.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001829s ]
+
+[ 2016-07-05T17:48:21+08:00 ] ::1 /R-CMS/admin.php?type=0&c=menu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\MenuController.class.php 第 19 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\R-CMS\R-CMS\Admin\Controller\MenuController.class.php 第 20 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `cms_menu` WHERE `type` = 0 AND `status` <> -1 ORDER BY listorder desc,menu_id desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `type` = 0 AND `status` <> -1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder ,menu_id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Admin\0de9185548f5fdb8e375b57a8a8c8740.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+

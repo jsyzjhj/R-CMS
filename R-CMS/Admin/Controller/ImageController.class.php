@@ -8,7 +8,6 @@ use THink\Upload;
 * 
 */
 class ImageController extends Controller{
-	// private $_uploadObj;
 
 	public function ajaxuploadimage() {
 		$upload = D('UploadImage');

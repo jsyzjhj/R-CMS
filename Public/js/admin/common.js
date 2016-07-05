@@ -6,9 +6,9 @@ $('#button-add').click(function() {
 	window.location.href = url;
 });
 
-$('#singcms-button-submit').click(function() {
+$('#rcms-button-submit').click(function() {
 	/* Act on the event */
-	var data = $('#singcms-form').serializeArray();
+	var data = $('#rcms-form').serializeArray();
 	postData = {};
 	$(data).each(function(i) {
 		postData[this.name] = this.value;
@@ -27,14 +27,14 @@ $('#singcms-button-submit').click(function() {
 });
 
 //修改操作
-$('.singcms-table #singcms-edit').on('click',function(){
+$('.rcms-table #rcms-edit').on('click',function(){
 	var id = $(this).attr('attr-id');
 	var url = SCOPE.edit_url + '&id=' + id;
 	window.location.href = url;
 });
 
 //删除操作
-$('.singcms-table #singcms-delete').on('click',function(){
+$('.rcms-table #rcms-delete').on('click',function(){
 	var id = $(this).attr('attr-id');
 	var url = SCOPE.set_status_url;
 	var a = $(this).attr('attr-a');
@@ -69,7 +69,7 @@ function todelete(url,data){
 
 $('#button-listorder').click(function() {
 	/* Act on the event */
-	var data = $('#singcms-listorder').serializeArray();
+	var data = $('#rcms-listorder').serializeArray();
 	postData = {};
 	$(data).each(function(i) {
 		postData[this.name] = this.value;
@@ -84,4 +84,50 @@ $('#button-listorder').click(function() {
 			return dialog.success(result.message,result['data']['jump_url']);
 		}
 	},'JSON');
+});
+
+//修改状态
+$('.rcms-table #rcms-on-off').on('click',function(){
+	var id = $(this).attr('attr-id');
+	var url = SCOPE.set_status_url;
+	var status = $(this).attr('attr-status');
+
+	data = {};
+	data['id'] = id;
+	data['status'] = status;
+
+	layer.open({
+		type:0,
+		title:'是否提交？',
+		btn:['yes','no'],
+		icon:3,
+		closeBtn:2,
+		content:'是否确定更改状态',
+		scrollbar:true,
+		yes:function(){
+			todelete(url,data)
+		},
+	})
+});
+
+$("#rcms-push").click(function() {
+	var id = $("#select-push").val();
+	var url = SCOPE.push_url;
+	var push = {};
+	var postData = {};
+	$("input[name='pushcheck']:checked").each(function(i) {
+		push[i] = $(this).val();
+	});
+	postData['push'] = push;
+	postData['position_id'] = id;
+	$.post(url, postData, function(result) {
+		if(result.status === 0) {
+			//失败
+			return dialog.error(result['message']);
+		}
+		if(result.status === 1) {
+			//成功
+			return dialog.success(result['message'],result['data']['jump_url']);
+		}
+	},'json');
 });

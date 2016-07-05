@@ -27,7 +27,7 @@
       <div class="row">
         <div class="col-lg-6">
 
-          <form class="form-horizontal" id="singcms-form">
+          <form class="form-horizontal" id="rcms-form">
             <div class="form-group">
               <label for="inputname" class="col-sm-2 control-label">标题:</label>
               <div class="col-sm-5">
@@ -84,7 +84,7 @@
             <div class="form-group">
               <label for="inputPassword3" class="col-sm-2 control-label">内容:</label>
               <div class="col-sm-5">
-                <textarea class="input js-editor" id="editor_singcms" name="content" rows="20" ></textarea>
+                <textarea class="input js-editor" id="editor_rcms" name="content" rows="20" ></textarea>
               </div>
             </div>
             <div class="form-group">
@@ -103,7 +103,7 @@
 
             <div class="form-group">
               <div class="col-sm-offset-2 col-sm-10">
-                <button type="button" class="btn btn-default" id="singcms-button-submit">提交</button>
+                <button type="button" class="btn btn-default" id="rcms-button-submit">提交</button>
               </div>
             </div>
           </form>
@@ -135,7 +135,7 @@
 <script>
   // 6.2
   KindEditor.ready(function(K) {
-    window.editor = K.create('#editor_singcms',{
+    window.editor = K.create('#editor_rcms',{
       uploadJson : '/R-CMS/admin.php?c=image&a=kindupload',
       afterBlur : function(){this.sync();}, //
     });

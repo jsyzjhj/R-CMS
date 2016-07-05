@@ -1,0 +1,2546 @@
+[ 2016-07-05T09:44:07+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002175s ]
+
+[ 2016-07-05T09:44:48+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001564s ]
+
+[ 2016-07-05T09:45:02+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2016-07-05T09:55:13+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002167s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+
+[ 2016-07-05T09:55:52+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001912s ]
+
+[ 2016-07-05T09:55:59+08:00 ] ::1 /R-CMS/index.php?c=detials&id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+ERR: 无法加载控制器:Detials
+
+[ 2016-07-05T10:07:43+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+
+[ 2016-07-05T10:07:57+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000529s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001599s ]
+
+[ 2016-07-05T10:08:50+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001737s ]
+
+[ 2016-07-05T10:08:52+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2016-07-05T10:09:33+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0005s ]
+
+[ 2016-07-05T10:09:39+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0008s ]
+
+[ 2016-07-05T10:10:32+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001783s ]
+
+[ 2016-07-05T10:11:10+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2016-07-05T10:11:28+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0021s ]
+
+[ 2016-07-05T10:12:36+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003015s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0014s ]
+
+[ 2016-07-05T10:12:51+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002064s ]
+
+[ 2016-07-05T10:15:33+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0074s ]
+
+[ 2016-07-05T10:22:11+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001693s ]
+
+[ 2016-07-05T10:22:24+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0008s ]
+
+[ 2016-07-05T10:22:49+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0005s ]
+
+[ 2016-07-05T10:23:03+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2016-07-05T10:27:03+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003428s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0009s ]
+ERR: Think\Model:getPositionContent方法不存在！
+
+[ 2016-07-05T10:27:35+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0014s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: SmallPosition D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-07-05T10:28:12+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0012s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2016-07-05T10:28:16+08:00 ] ::1 /R-CMS/index.php?c=detail&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+ERR: 无法加载控制器:Detail
+
+[ 2016-07-05T10:32:20+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-07-05T10:32:48+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001884s ]
+
+[ 2016-07-05T10:33:44+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001990s ]
+
+[ 2016-07-05T10:33:59+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000955s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001849s ]
+
+[ 2016-07-05T10:35:30+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002305s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2016-07-05T10:36:52+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001966s ]
+
+[ 2016-07-05T10:36:54+08:00 ] ::1 /R-CMS/index.php?c=detial&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+ERR: 无法加载控制器:Detial
+
+[ 2016-07-05T10:36:59+08:00 ] ::1 /R-CMS/index.php?c=detial&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002856s ]
+ERR: 无法加载控制器:Detial
+
+[ 2016-07-05T10:37:03+08:00 ] ::1 /R-CMS/index.php?c=detial&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+ERR: 无法加载控制器:Detial
+
+[ 2016-07-05T10:37:38+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0024s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001770s ]
+
+[ 2016-07-05T10:37:45+08:00 ] ::1 /R-CMS/index.php?c=detial&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+ERR: 无法加载控制器:Detial
+
+[ 2016-07-05T10:40:37+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002678s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2016-07-05T14:33:36+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0098s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-07-05T14:49:25+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-07-05T14:49:42+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-07-05T14:50:55+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 108 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2016-07-05T14:51:48+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 108 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-07-05T14:51:51+08:00 ] ::1 /R-CMS/index.php?c=detial&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+ERR: 无法加载控制器:Detial
+
+[ 2016-07-05T14:51:56+08:00 ] ::1 /R-CMS/index.php?c=detial&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+ERR: 无法加载控制器:Detial
+
+[ 2016-07-05T14:55:39+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 108 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2016-07-05T14:56:03+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 108 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2016-07-05T14:56:24+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 108 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-07-05T15:02:09+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 108 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2016-07-05T15:17:29+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003462s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2016-07-05T15:18:19+08:00 ] ::1 /R-CMS/index.php?c=detial&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+ERR: 无法加载控制器:Detial
+
+[ 2016-07-05T15:43:56+08:00 ] ::1 /R-CMS/index.php?c=detial&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+ERR: 无法加载控制器:Detial
+
+[ 2016-07-05T15:44:01+08:00 ] ::1 /R-CMS/index.php?c=detial&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+ERR: 无法加载控制器:Detial
+
+[ 2016-07-05T15:44:54+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: smalltitle D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 65 行.
+NOTIC: [8] Undefined index: smalltitle D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-07-05T15:45:02+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-07-05T15:50:48+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002440s ]
+
+[ 2016-07-05T15:50:50+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003667s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0016s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-07-05T15:54:39+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001903s ]
+
+[ 2016-07-05T15:56:44+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0006s ]
+
+[ 2016-07-05T15:56:53+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0007s ]
+
+[ 2016-07-05T15:59:01+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002412s ]
+
+[ 2016-07-05T15:59:07+08:00 ] ::1 /R-CMS/index.php?c=detial&id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+ERR: 无法加载控制器:Detial
+
+[ 2016-07-05T15:59:10+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2016-07-05T16:00:37+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003574s ]
+
+[ 2016-07-05T16:01:16+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Undefined variable: vo1 D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 76 行.
+NOTIC: [8] Undefined variable: vo1 D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 76 行.
+NOTIC: [8] Undefined variable: vo1 D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003749s ]
+
+[ 2016-07-05T16:01:24+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000935s ]
+NOTIC: [8] Undefined variable: vo1 D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 76 行.
+NOTIC: [8] Undefined variable: vo1 D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 76 行.
+NOTIC: [8] Undefined variable: vo1 D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2016-07-05T16:01:30+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Undefined variable: vo1 D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 76 行.
+NOTIC: [8] Undefined variable: vo1 D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 76 行.
+NOTIC: [8] Undefined variable: vo1 D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\26a3d289bf9f03c3cbac7680efc98980.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-07-05T16:02:07+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2016-07-05T16:24:33+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+
+[ 2016-07-05T16:25:51+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-07-05T16:26:04+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-07-05T16:26:08+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-07-05T16:26:26+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-07-05T16:26:28+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+
+[ 2016-07-05T16:27:03+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+
+[ 2016-07-05T16:27:37+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000345s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-07-05T16:27:38+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+
+[ 2016-07-05T16:27:39+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+
+[ 2016-07-05T16:27:40+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007964s ]
+
+[ 2016-07-05T16:27:40+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-07-05T16:27:40+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+
+[ 2016-07-05T16:27:40+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+
+[ 2016-07-05T16:27:41+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-07-05T16:27:41+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000225s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004512s ]
+
+[ 2016-07-05T16:31:15+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004485s ]
+
+[ 2016-07-05T16:31:16+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-07-05T16:31:17+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-07-05T16:32:50+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+
+[ 2016-07-05T16:32:52+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-07-05T16:32:52+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+
+[ 2016-07-05T16:32:53+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+
+[ 2016-07-05T16:32:54+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002918s ]
+
+[ 2016-07-05T16:32:54+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-07-05T16:32:54+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+
+[ 2016-07-05T16:32:54+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-07-05T16:32:55+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+
+[ 2016-07-05T16:32:55+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+
+[ 2016-07-05T16:33:02+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+
+[ 2016-07-05T16:33:21+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+
+[ 2016-07-05T16:33:22+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+
+[ 2016-07-05T16:33:23+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+
+[ 2016-07-05T16:33:24+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+
+[ 2016-07-05T16:33:24+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-07-05T16:33:25+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-07-05T16:33:26+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-07-05T16:33:26+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-07-05T16:33:27+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003871s ]
+
+[ 2016-07-05T16:33:38+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-07-05T16:36:39+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+
+[ 2016-07-05T16:39:48+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+NOTIC: [2048] Declaration of Home\Common\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+
+[ 2016-07-05T16:40:09+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [2048] Declaration of Home\Common\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+
+[ 2016-07-05T16:40:12+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [2048] Declaration of Home\Common\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+
+[ 2016-07-05T16:40:56+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+
+[ 2016-07-05T16:41:12+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2016-07-05T16:41:31+08:00 ] ::1 /R-CMS/index.php?c=index&a=error
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: barMenus D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2016-07-05T16:42:27+08:00 ] ::1 /R-CMS/index.php?c=index&a=error
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 5 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 6 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 7 行.
+NOTIC: [8] Undefined variable: barMenus D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-07-05T16:43:17+08:00 ] ::1 /R-CMS/index.php?c=index&a=error
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 5 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 6 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 7 行.
+NOTIC: [8] Undefined variable: barMenus D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-07-05T16:45:02+08:00 ] ::1 /R-CMS/index.php?c=index&a=error
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 5 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 6 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 7 行.
+NOTIC: [8] Undefined variable: barMenus D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-07-05T16:45:49+08:00 ] ::1 /R-CMS/index.php?c=index&a=error
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 5 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 6 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 7 行.
+NOTIC: [8] Undefined variable: barMenus D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-07-05T16:46:13+08:00 ] ::1 /R-CMS/index.php?c=index&a=error
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 5 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 6 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 7 行.
+NOTIC: [8] Undefined variable: barMenus D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2016-07-05T16:46:30+08:00 ] ::1 /R-CMS/index.php?c=index&a=error
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 5 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 6 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 7 行.
+NOTIC: [8] Undefined variable: barMenus D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2016-07-05T16:46:34+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-07-05T16:47:04+08:00 ] ::1 /R-CMS/index.php?c=index&a=error
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 5 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 6 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 7 行.
+NOTIC: [8] Undefined variable: barMenus D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-07-05T16:47:08+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 20 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-07-05T16:48:04+08:00 ] ::1 /R-CMS/index.php?c=index&a=error
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 5 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 6 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 7 行.
+NOTIC: [8] Undefined variable: barMenus D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2016-07-05T16:48:08+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001678s ]
+
+[ 2016-07-05T16:53:42+08:00 ] ::1 /R-CMS/index.php?c=index&a=error
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 5 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 6 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 7 行.
+NOTIC: [8] Undefined variable: barMenus D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-07-05T16:53:47+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002132s ]
+
+[ 2016-07-05T16:54:08+08:00 ] ::1 /R-CMS/index.php?c=index&a=error
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 5 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 6 行.
+NOTIC: [8] Undefined variable: basic D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 7 行.
+NOTIC: [8] Undefined variable: barMenus D:\phpStudy\WWW\R-CMS\R-CMS\Runtime\Cache\Home\e482441c170f2b5440bfae1cac92730a.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2016-07-05T16:54:12+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2016-07-05T17:46:18+08:00 ] ::1 /R-CMS/index.php?c=detials&id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+ERR: 无法加载控制器:Detials
+
+[ 2016-07-05T17:48:08+08:00 ] ::1 /R-CMS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\R-CMS\R-CMS\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder,menu_id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\PositionContentModel.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 LIMIT 2   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with that of Think\Model::select() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\R-CMS\R-CMS\Common\Model\NewsModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 100   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2016-07-05T17:48:11+08:00 ] ::1 /R-CMS/index.php?c=cat&id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+ERR: 无法加载控制器:Cat
+

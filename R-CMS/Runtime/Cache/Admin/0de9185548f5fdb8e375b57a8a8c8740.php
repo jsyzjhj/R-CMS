@@ -22,7 +22,7 @@
 
     <!-- Custom Fonts -->
     <link href="/R-CMS/Public/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/R-CMS/Public/css/sing/common.css" />
+    <link rel="stylesheet" href="/R-CMS/Public/css/R/common.css" />
     <link rel="stylesheet" href="/R-CMS/Public/css/party/bootstrap-switch.css" />
     <link rel="stylesheet" type="text/css" href="/R-CMS/Public/css/party/uploadify.css">
 
@@ -50,7 +50,7 @@
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     
-    <a class="navbar-brand" >R-CMS内容管理平台</a>
+    <a class="navbar-brand" href="/R-CMS/admin.php">R-CMS内容管理平台</a>
   </div>
   <!-- Top Menu Items -->
   <ul class="nav navbar-right top-nav">
@@ -60,7 +60,7 @@
       <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo ($user); ?> <b class="caret"></b></a>
       <ul class="dropdown-menu">
         <li>
-          <a href="/admin.php?c=admin&a=personal"><i class="fa fa-fw fa-user"></i> 个人中心</a>
+          <a href="/R-CMS/admin.php?c=admin&a=personal"><i class="fa fa-fw fa-user"></i> 个人中心</a>
         </li>
        
         <li class="divider"></li>
@@ -94,10 +94,10 @@
 
                 <ol class="breadcrumb">
                     <li>
-                        <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=menu">菜单管理</a>
+                        <i class="fa fa-dashboard"></i>  <a href="/R-CMS/admin.php?c=menu">菜单管理</a>
                     </li>
                     <li class="active">
-                        <i class="fa fa-table"></i><?php echo ($nav); ?>
+                        <i class="fa fa-table">菜单列表</i>
                     </li>
                 </ol>
             </div>
@@ -128,8 +128,8 @@
             <div class="col-lg-6">
                 <h3></h3>
                 <div class="table-responsive">
-                    <form id="singcms-listorder">
-                    <table class="table table-bordered table-hover singcms-table">
+                    <form id="rcms-listorder">
+                    <table class="table table-bordered table-hover rcms-table">
                         <thead>
                         <tr>
                             <th width="14">排序</th>
@@ -149,7 +149,7 @@
                                 <td><?php echo ($menu["m"]); ?></td>
                                 <td><?php echo (getMenuType($menu["type"])); ?></td>
                                 <td><?php echo (getMenuStatus($menu["status"])); ?></td>
-                                <td><span class="glyphicon glyphicon-edit" aria-hidden="true" id="singcms-edit" attr-id="<?php echo ($menu["menu_id"]); ?>"></span>    <a href="javascript:void(0)" attr-id="<?php echo ($menu["menu_id"]); ?>" id="singcms-delete"  attr-a="menu" attr-message="删除"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
+                                <td><span class="glyphicon glyphicon-edit" aria-hidden="true" id="rcms-edit" attr-id="<?php echo ($menu["menu_id"]); ?>"></span>    <a href="javascript:void(0)" attr-id="<?php echo ($menu["menu_id"]); ?>" id="rcms-delete"  attr-a="menu" attr-message="删除"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
                     </table>

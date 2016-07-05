@@ -21,7 +21,7 @@
 
     <!-- Custom Fonts -->
     <link href="/R-CMS/Public/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/R-CMS/Public/css/sing/common.css" />
+    <link rel="stylesheet" href="/R-CMS/Public/css/R/common.css" />
     <link rel="stylesheet" href="/R-CMS/Public/css/party/bootstrap-switch.css" />
     <link rel="stylesheet" type="text/css" href="/R-CMS/Public/css/party/uploadify.css">
 
@@ -49,7 +49,7 @@
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     
-    <a class="navbar-brand" >R-CMS内容管理平台</a>
+    <a class="navbar-brand" href="/R-CMS/admin.php">R-CMS内容管理平台</a>
   </div>
   <!-- Top Menu Items -->
   <ul class="nav navbar-right top-nav">
@@ -59,7 +59,7 @@
       <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo ($user); ?> <b class="caret"></b></a>
       <ul class="dropdown-menu">
         <li>
-          <a href="/admin.php?c=admin&a=personal"><i class="fa fa-fw fa-user"></i> 个人中心</a>
+          <a href="/R-CMS/admin.php?c=admin&a=personal"><i class="fa fa-fw fa-user"></i> 个人中心</a>
         </li>
        
         <li class="divider"></li>
@@ -138,7 +138,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="/admin.php?c=content&a=index">
+                    <a href="/R-CMS/admin.php?c=content&a=index">
                         <div class="panel-footer">
                             <span class="pull-left">查看</span>
                             <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -182,7 +182,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="/admin.php?c=position">
+                    <a href="/R-CMS/admin.php?c=position">
                         <div class="panel-footer">
                             <span class="pull-left">查看</span>
                             <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
