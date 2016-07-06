@@ -20,6 +20,7 @@ class ContentController extends Controller{
 		$page = $_REQUEST['p']?$_REQUEST['p']:1;
 		$pageSize = 2;
 		$conds['status'] = array('neq',-1);
+		//分页处理
 		$news = D('News') -> getNews($conds,$page,$pageSize);
 		$count = D('News') -> getNewsCount($conds);
 		$webSiteMenu = D('Menu') -> getBarMenus();

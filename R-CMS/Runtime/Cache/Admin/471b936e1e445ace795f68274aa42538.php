@@ -50,17 +50,17 @@
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     
-    <a class="navbar-brand" >R-CMS内容管理平台</a>
+    <a class="navbar-brand" href="/R-CMS/admin.php">R-CMS内容管理平台</a>
   </div>
   <!-- Top Menu Items -->
   <ul class="nav navbar-right top-nav">
     
     
     <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo ($user); ?> <b class="caret"></b></a>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo ($_SESSION['AdminUser']['username']); ?> <b class="caret"></b></a>
       <ul class="dropdown-menu">
         <li>
-          <a href="/admin.php?c=admin&a=personal"><i class="fa fa-fw fa-user"></i> 个人中心</a>
+          <a href="/R-CMS/admin.php?c=admin&a=personal"><i class="fa fa-fw fa-user"></i> 个人中心</a>
         </li>
        
         <li class="divider"></li>
@@ -94,10 +94,10 @@
 
                 <ol class="breadcrumb">
                     <li>
-                        <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=admin">用户管理</a>
+                        <i class="fa fa-dashboard"></i>  <a href="/R-CMS/admin.php?c=admin">用户管理</a>
                     </li>
                     <li class="active">
-                        <i class="fa fa-table"></i><?php echo ($nav); ?>
+                        <i class="fa fa-table"></i>用户管理
                     </li>
                 </ol>
             </div>
@@ -111,8 +111,8 @@
             <div class="col-lg-6">
                 <h3></h3>
                 <div class="table-responsive">
-                    <form id="singcms-listorder">
-                    <table class="table table-bordered table-hover singcms-table">
+                    <form id="rcms-listorder">
+                    <table class="table table-bordered table-hover rcms-table">
                         <thead>
                         <tr>
                             <th>id</th>
@@ -129,9 +129,9 @@
                                 <td><?php echo ($admin["admin_id"]); ?></td>
                                 <td><?php echo ($admin["username"]); ?></td>
                                 <td><?php echo ($admin["realname"]); ?></td>
-                                <td><?php echo ($admin["lastlogintime"]); ?></td>
-                                <td><span  attr-status="<?php echo ($admin["status"]); ?>"  attr-id="<?php echo ($admin["admin_id"]); ?>" class="sing_cursor singcms-on-off" id="singcms-on-off" ><?php echo (getMenuStatus($admin["status"])); ?></span></td>
-                                <td>    <a href="javascript:void(0)" attr-id="" id="singcms-delete"  attr-a="admin" attr-message="删除"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
+                                <td><?php echo (date("Y-m-d H:i:s",$admin["lastlogintime"])); ?></td>
+                                <td><span  attr-status="<?php if($admin['status'] == 1): ?>0<?php else: ?>1<?php endif; ?>" attr-id="<?php echo ($admin["admin_id"]); ?>" class="r_cursor rcms-on-off" id="rcms-on-off" ><?php echo (getMenuStatus($admin["status"])); ?></span></td>
+                                <td>    <a href="javascript:void(0)" attr-id="<?php echo ($admin["admin_id"]); ?>" id="rcms-delete"  attr-a="admin" attr-message="删除"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
 
                         </tbody>
@@ -154,9 +154,9 @@
 <!-- Morris Charts JavaScript -->
 <script>
     var SCOPE = {
-        'add_url' : '/admin.php?c=admin&a=add',
-        'edit_url' : '/admin.php?c=admin&a=edit',
-        'set_status_url' : '/admin.php?c=admin&a=setStatus',
+        'add_url' : '/R-CMS/admin.php?c=admin&a=add',
+        'edit_url' : '/R-CMS/admin.php?c=admin&a=edit',
+        'set_status_url' : '/R-CMS/admin.php?c=admin&a=setStatus',
         'index_url' : '/',
 
     }

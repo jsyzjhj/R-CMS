@@ -56,7 +56,7 @@
     
     
     <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo ($user); ?> <b class="caret"></b></a>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo ($_SESSION['AdminUser']['username']); ?> <b class="caret"></b></a>
       <ul class="dropdown-menu">
         <li>
           <a href="/R-CMS/admin.php?c=admin&a=personal"><i class="fa fa-fw fa-user"></i> 个人中心</a>
@@ -111,8 +111,8 @@
                                 <i class="fa fa-comments fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="huge"></div>
-                                <div>今日登录用户数12</div>
+                                <div class="huge"><?php echo ($loginCount); ?></div>
+                                <div>今日登录用户数</div>
                             </div>
                         </div>
                     </div>
@@ -133,8 +133,8 @@
                                 <i class="fa fa-tasks fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="huge"></div>
-                                <div>文章数量12</div>
+                                <div class="huge"><?php echo ($newsCount); ?></div>
+                                <div>文章数量</div>
                             </div>
                         </div>
                     </div>
@@ -155,8 +155,8 @@
                                 <i class="fa glyphicon glyphicon-asterisk  fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="huge"></div>
-                                <div>文章最大阅读数12</div>
+                                <div class="huge"><?php echo ($maxNewsCount["count"]); ?></div>
+                                <div>文章最大阅读数</div>
                             </div>
                         </div>
                     </div>
@@ -164,7 +164,7 @@
                         <div class="panel-footer">
                             <span class="pull-left"></span>
                             <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                            <div class="clearfix">ssssssssssssssss</div>
+                            <div class="clearfix"><a class="clearfix" href="/R-CMS/index.php?c=detail&id=<?php echo ($maxNewsCount["news_id"]); ?>"><?php echo ($maxNewsCount["title"]); ?></a></div>
                         </div>
                     </a>
                 </div>
@@ -177,7 +177,7 @@
                                 <i class="fa fa-support fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="huge"></div>
+                                <div class="huge"><?php echo ($positionCount); ?></div>
                                 <div>推荐位数</div>
                             </div>
                         </div>

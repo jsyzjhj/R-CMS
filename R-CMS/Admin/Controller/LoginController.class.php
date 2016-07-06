@@ -35,7 +35,10 @@ class LoginController extends Controller{
 			return show(0,'密码错误');
 
 		session('AdminUser',$ret);
-		return show(1,'登录成功');
+		$res = D('Admin') -> updateLastLoginTimeByUsername($username);
+		if($res) {
+			return show(1,'登录成功');
+		}
 	}
 
 	function loginout(){

@@ -16,10 +16,10 @@
 
                 <ol class="breadcrumb">
                     <li>
-                        <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=admin">用户管理</a>
+                        <i class="fa fa-dashboard"></i>  <a href="/R-CMS/admin.php?c=admin">用户管理</a>
                     </li>
                     <li class="active">
-                        <i class="fa fa-table"></i>{$nav}
+                        <i class="fa fa-table"></i>用户管理
                     </li>
                 </ol>
             </div>
@@ -33,8 +33,8 @@
             <div class="col-lg-6">
                 <h3></h3>
                 <div class="table-responsive">
-                    <form id="singcms-listorder">
-                    <table class="table table-bordered table-hover singcms-table">
+                    <form id="rcms-listorder">
+                    <table class="table table-bordered table-hover rcms-table">
                         <thead>
                         <tr>
                             <th>id</th>
@@ -52,9 +52,9 @@
                                 <td>{$admin.admin_id}</td>
                                 <td>{$admin.username}</td>
                                 <td>{$admin.realname}</td>
-                                <td>{$admin.lastlogintime}</td>
-                                <td><span  attr-status="{$admin.status}"  attr-id="{$admin.admin_id}" class="sing_cursor singcms-on-off" id="singcms-on-off" >{$admin.status|getMenuStatus}</span></td>
-                                <td>    <a href="javascript:void(0)" attr-id="" id="singcms-delete"  attr-a="admin" attr-message="删除"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
+                                <td>{$admin.lastlogintime|date="Y-m-d H:i:s",###}</td>
+                                <td><span  attr-status="<if condition="$admin['status'] eq 1">0<else/>1</if>" attr-id="{$admin.admin_id}" class="r_cursor rcms-on-off" id="rcms-on-off" >{$admin.status|getMenuStatus}</span></td>
+                                <td>    <a href="javascript:void(0)" attr-id="{$admin.admin_id}" id="rcms-delete"  attr-a="admin" attr-message="删除"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
                             </tr>
                         </volist>
 
@@ -78,9 +78,9 @@
 <!-- Morris Charts JavaScript -->
 <script>
     var SCOPE = {
-        'add_url' : '/admin.php?c=admin&a=add',
-        'edit_url' : '/admin.php?c=admin&a=edit',
-        'set_status_url' : '/admin.php?c=admin&a=setStatus',
+        'add_url' : '/R-CMS/admin.php?c=admin&a=add',
+        'edit_url' : '/R-CMS/admin.php?c=admin&a=edit',
+        'set_status_url' : '/R-CMS/admin.php?c=admin&a=setStatus',
         'index_url' : '/',
 
     }

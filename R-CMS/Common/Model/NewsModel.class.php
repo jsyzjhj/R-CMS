@@ -110,6 +110,26 @@ class NewsModel extends Model{
 	// 	$list = $this -> _db -> where($data) -> order('count desc,news_id desc') -> limit($limit) -> select();
 	// 	return $list;
 	// }
+
+	public function updateNewsCount($id,$count) {
+		if(!$id || !is_numeric($id)) {
+			throw_exception('ID不合法');
+		}
+		if(!is_numeric($count)) {
+			throw_exception('计数不合法');
+		}
+		$data['count'] = $count;
+		return $this -> _db -> where('news_id='.$id) -> save($data);
+	}
+
+	public function maxNewsCount() {
+		$conditions = array(
+			'status' => 1
+			);
+		return $this -> _db -> where($conditions)->order('count desc') ->limit(1) -> find();
+	}
+
+	
 }
 
 

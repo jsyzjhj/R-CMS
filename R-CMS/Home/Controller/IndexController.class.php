@@ -3,7 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends CommonController {
 
- 	function index(){
+ 	function index($type = ''){
  		$basic = D('Basic') -> select();
  		$barMenus = D('Menu') -> getBarMenus();
  		$getBigPosition = array(
@@ -28,8 +28,6 @@ class IndexController extends CommonController {
  		$news = D('News') -> select($getNews,20);
  		$rankNews = $this -> getRank($getNews);
 
- 		// print_r($advNews);exit;
-
  		$this -> assign('result',array(
  			'bigPositions' => $bigPositions[0],
  			'smallPositions' => $smallPositions,
@@ -39,6 +37,15 @@ class IndexController extends CommonController {
  			));
  		$this -> assign('barMenus',$barMenus);
  		$this -> assign('basic',$basic);
- 		$this -> display();
- 	}   
+ 		//生成页面静态化
+ 		if($type == 'buildHtml') {
+ 			$this -> buildHtml('index',HTML_PATH,'Index/index');
+ 		}else {
+ 			$this -> display();
+ 		}
+ 	}
+
+ 	public function build_html() {
+ 		$this -> index('buildHtml');
+ 	}
 }

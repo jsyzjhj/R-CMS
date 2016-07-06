@@ -7,7 +7,7 @@
           <ul>
             <volist name="result['rankNews']" id="vo" key="k">
             <li class="num{$k} curr">
-              <a href="/R-CMS/index.php?c=detial&id={$vo.news_id}">{$vo.title}</a>
+              <a href="/R-CMS/index.php?c=detail&id={$vo.news_id}">{$vo.title}</a>
               <if condition="$k eq 1">
               <div class="intro">
                 {$vo.description}

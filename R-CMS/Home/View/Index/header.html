@@ -2,9 +2,9 @@
   <div class="navbar-inverse">
     <div class="container">
       <ul class="nav navbar-nav navbar-left">
-        <li><a href="/" class="curr">首页</a></li>
+        <li><a href="/R-CMS/index.php" <if condition="$_GET['id'] eq 0">class="curr"<else />class=""</if>>首页</a></li>
         <foreach name="barMenus" item="barMenu">
-        <li><a href="/R-CMS/index.php?c=cat&id={$barMenu.menu_id}">{$barMenu.name}</a></li>
+        <li><a href="/R-CMS/index.php?c=cat&id={$barMenu.menu_id}" <if condition="$result['news']['catid'] eq $barMenu['menu_id']">class="curr"<else />class=""</if>>{$barMenu.name}</a></li>
         </foreach>
       </ul>
     </div>

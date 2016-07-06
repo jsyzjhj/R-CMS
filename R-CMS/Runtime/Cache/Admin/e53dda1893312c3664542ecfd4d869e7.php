@@ -86,7 +86,7 @@
 
     <div id="page-wrapper">
 
-        <div class="container-fluid" >
+    <div class="container-fluid">
 
         <!-- Page Heading -->
         <div class="row">
@@ -94,62 +94,58 @@
 
                 <ol class="breadcrumb">
                     <li>
-                        <i class="fa fa-dashboard"></i>  <a href="/R-CMS/admin.php?c=position">推荐位管理</a>
+                        <i class="fa fa-dashboard"></i>  <a href="/R-CMS/admin.php?c=admin">用户管理</a>
                     </li>
                     <li class="active">
-                        <i class="fa fa-table">推荐位列表</i>
+                        <i class="fa fa-edit"></i> 添加
                     </li>
                 </ol>
             </div>
         </div>
         <!-- /.row -->
-        <div>
-          <button  id="button-add" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加 </button>
-        </div>
+
         <div class="row">
             <div class="col-lg-6">
-                <h3></h3>
-                <div class="table-responsive">
-                    <form id="rcms-listorder">
-                    <table class="table table-bordered table-hover rcms-table">
-                        <thead>
-                        <tr>
-                            <th>id</th>
-                            <th>推荐位名称</th>
-                            <th>时间</th>
-                            <th>状态</th>
-                            <th>操作</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <?php if(is_array($positions)): $i = 0; $__LIST__ = $positions;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$position): $mod = ($i % 2 );++$i;?><tr>
-                                <td><?php echo ($position["id"]); ?></td>
-                                <td><?php echo ($position["name"]); ?></td>
-                                <td><?php echo (date("Y-m-d H:i",$position["create_time"])); ?></td>
-                                <td><?php echo (getMenuStatus($position["status"])); ?></td>
-                                <td><span class="glyphicon glyphicon-edit" aria-hidden="true" id="rcms-edit" attr-id="<?php echo ($position["id"]); ?>"></span>    <a href="javascript:void(0)" attr-id="<?php echo ($position["id"]); ?>" id="rcms-delete"  attr-a="position" attr-message="删除"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
-                            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                        </tbody>
-                    </table>
-                    </form>
-                </div>
-                    <nav>
-                        <ul class="pagination">
-                            <?php echo ($pageRes); ?>
-                        </ul>
-                    </nav>
-                    <div>
-                        <button  id="button-listorder" type="button" class="btn btn-primary dropdown-toggle"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>更新排序 </button>
-                    </div>                    
-            </div>
-        </div>
 
-        <!-- </div> -->
-        <!-- /.row -->
+                <form class="form-horizontal" id="rcms-form">
+                    <div class="form-group">
+                        <label for="inputname" class="col-sm-2 control-label">用户名:</label>
+                        <div class="col-sm-5">
+                            <input type="text" name="username" class="form-control" id="inputname" placeholder="请填写用户名">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">密码:</label>
+                        <div class="col-sm-5">
+                            <input type="text" name="password" class="form-control" id="inputname" placeholder="请填写密码"/> 
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">真实姓名:</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" name="realname" id="inputPassword3" placeholder="请填写真实姓名">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="button" class="btn btn-default" id="rcms-button-submit">提交</button>
+                        </div>
+                    </div>
+                </form>
+
+
+            </div>
+
         </div>
-    <!-- /.container-fluid -->
+        <!-- /.row -->
 
     </div>
+    <!-- /.container-fluid -->
+
+</div>
 <!-- /#page-wrapper -->
 
 </div>
@@ -158,9 +154,8 @@
 <script>
 
     var SCOPE = {
-        'add_url' : '/R-CMS/admin.php?c=position&a=add',
-        'edit_url' : '/R-CMS/admin.php?c=position&a=edit',
-        'set_status_url' : '/R-CMS/admin.php?c=position&a=setStatus',
+        'save_url' : '/R-CMS/admin.php?c=admin&a=add',
+        'jump_url' : '/R-CMS/admin.php?c=admin',
     }
 </script>
 <script src="/R-CMS/Public/js/admin/common.js"></script>

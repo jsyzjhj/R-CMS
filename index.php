@@ -7,6 +7,7 @@ $_GET['a'] = (!isset($_GET['a']) || !$_GET['a'])?'index':$_GET['a'];
 define('APP_NAME', 'R-CMS');
 define('APP_PATH', './R-CMS/');
 define('APP_DEBUG', true);
+define('HTML_PATH', './');
 
 require_once('./ThinkPHP/ThinkPHP.php');
 

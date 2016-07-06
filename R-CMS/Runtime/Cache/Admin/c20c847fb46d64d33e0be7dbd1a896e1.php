@@ -55,7 +55,7 @@
     
     
     <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo ($user); ?> <b class="caret"></b></a>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo ($_SESSION['AdminUser']['username']); ?> <b class="caret"></b></a>
       <ul class="dropdown-menu">
         <li>
           <a href="/R-CMS/admin.php?c=admin&a=personal"><i class="fa fa-fw fa-user"></i> 个人中心</a>
@@ -163,7 +163,6 @@
                       <a href="javascript:void(0)" id="rcms-delete"  attr-id="<?php echo ($new["news_id"]); ?>"  attr-message="删除">
                         <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                       </a>
-
                     </td>
                   </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                 </tbody>
